@@ -8,6 +8,17 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "axios": "^0.19.0",
+    "firebase": "^7.6.1",
+    "reflect-metadata": "^0.1.13",
+    "rxios": "^1.1.2",
+    "rxjs": "^6.5.4",
+    "rxjs-compat": "^6.5.4",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.3.0",
