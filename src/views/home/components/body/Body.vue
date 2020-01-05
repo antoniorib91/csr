@@ -1,7 +1,7 @@
 <template>
   <body>
-    <Section>
-      <h1>TESTE</h1>
+    <Section :isFirst="true">
+      <About></About>
     </Section>
     <Section>
       <h1>TESTE1</h1>
@@ -17,9 +17,11 @@
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator';
   import Section from '@/components/shared/Section.vue'
+  import About from './About.vue';
   @Component({
     components: {
-      Section
+      Section,
+      About
     }
   })
   export default class Body extends Vue {}

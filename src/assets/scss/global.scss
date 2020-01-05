@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+@import '../materialize/sass/materialize.scss';
+
+
+// Playfair Font
+@font-face {
+  font-family: PlayFair;
+  src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: PlayFair;
+  src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf);
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: PlayFair;
+  src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: PlayFair;
+  src: url(../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Playfair';
+}
+

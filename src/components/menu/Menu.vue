@@ -1,30 +1,29 @@
 <template>
   <div class="nav">
-    <div class="nav__links">Links</div>
-    <div><Logo></Logo></div>
-    <div class="nav__links">Links2</div>
+    <slot></slot>
   </div>
 </template>
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import Logo from './Logo.vue';
 @Component({
-  components: {
-    Logo
-  }
+  components: {}
 })
 export default class Menu extends Vue {
   @Prop() private msg!: string;
 }
 </script>
+
 <style lang="scss">
+
+@import '@/assets/scss/variables.scss';
 .nav {
   display: flex;
   justify-content: center;
   width: 100%;
-
-  &__links {
-    line-height: 100px;
-  }
+  background-color: $beige;
+  -webkit-box-shadow: 0  3px 12px -4px  $black;
+  -moz-box-shadow: 0  3px 12px -4px  $black;
+  box-shadow: 0  3px 12px -4px  $black;
+//  #222;
 }
 </style>

@@ -1,1 +1,0 @@
-import '@/assets/materialize/sass/materialize.scss';
