@@ -27,7 +27,7 @@
     line-height: 100px;
     padding: 0px 10px; 
     a {
-       color: $black2;
+      color: $brown_dark;
       &:hover {
         color: $black;
         font-size: 22px;

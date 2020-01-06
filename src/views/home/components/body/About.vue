@@ -14,7 +14,9 @@
       </div>
     </div>
     <div class="col s12 l6 xl6">
-      <h1>Carol Photo Here</h1>
+      <div class="about">
+        <h1>Carol Photo Here</h1>
+      </div>
     </div>
   </div>  
 </template>
@@ -26,6 +28,10 @@
 </script>
 <style lang="scss">
 .about {
-  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
 }
 </style>

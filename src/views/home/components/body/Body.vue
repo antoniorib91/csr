@@ -4,13 +4,10 @@
       <About></About>
     </Section>
     <Section>
-      <h1>TESTE1</h1>
+      <Events></Events>
     </Section>
     <Section>
-      <h1>TESTE2</h1>
-    </Section>
-    <Section>
-      <h1>TESTE3</h1>
+      <Contact></Contact>
     </Section>
   </body>
 </template>
@@ -18,10 +15,15 @@
   import { Component, Vue } from 'vue-property-decorator';
   import Section from '@/components/shared/Section.vue'
   import About from './About.vue';
+  import Events from './Events.vue';
+  import Contact from './Contact.vue';
+
   @Component({
     components: {
       Section,
-      About
+      About,
+      Events,
+      Contact
     }
   })
   export default class Body extends Vue {}

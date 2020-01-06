@@ -20,7 +20,9 @@ export default class Menu extends Vue {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: $beige;
+  // background-color: $beige;
+  background-color: #efc99f;
+  border-bottom: dotted $beige; 
   -webkit-box-shadow: 0  3px 12px -4px  $black;
   -moz-box-shadow: 0  3px 12px -4px  $black;
   box-shadow: 0  3px 12px -4px  $black;
