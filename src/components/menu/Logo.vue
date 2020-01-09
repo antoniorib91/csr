@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img width="150" height="100" src="@/assets/logo.png"/>
+    <img id="logo" width="150" height="100" src="@/assets/logo.png"/>
   </div>
 </template>
 <script lang="ts">
@@ -11,5 +11,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+#logo {
+  position: absolute;
+  margin: 0px 10px 0px -70px;
+}
 </style>

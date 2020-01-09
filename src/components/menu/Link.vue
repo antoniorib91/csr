@@ -19,18 +19,22 @@
 <style lang="scss">
 @import '@/assets/scss/variables.scss';
 .nav {
+  height: 75px;
   &__links {
-    font-family: 'Playfair';
+    // font-family: 'Playfair';
     font-style:  italic;
     font-weight: bold;
-    font-size: 21px;  
-    line-height: 100px;
+    font-family: 'Rudiment';
+
+    font-size: 28px;
+    min-width: 120px; 
+    line-height: 70px;
     padding: 0px 10px; 
     a {
-      color: $brown_dark;
+      color: $white;
       &:hover {
         color: $black;
-        font-size: 22px;
+        font-size: 32px;
       }
     }
   }

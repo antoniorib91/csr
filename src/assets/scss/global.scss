@@ -36,3 +36,16 @@ body {
   color: $brown_dark;
 }
 
+// Rudiment Font
+
+@font-face {
+  font-family: Rudiment;
+  src: url(../fonts/rudiment/Rudiment-0gwP.ttf);
+}
+
+// C Hand Demo Font
+
+@font-face {
+  font-family: CHand;
+  src: url(../fonts/chalk-hand-lettering/Chalk-hand-lettering-shaded_DEMO.otf);
+}

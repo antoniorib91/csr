@@ -3,11 +3,9 @@
     <Menu>
       <Link>HOME</Link>
       <Link>SOBRE</Link>
-      <div><Logo></Logo></div>
+      <div class="logo"><Logo></Logo></div>
       <Link>EVENTOS</Link>
       <Link>CONTATO</Link>
-      <!-- <div class="nav__links">Eventos</div> -->
-      <!-- <div class="nav__links">Contato</div> -->
     </Menu>
   </header>
 </template>
@@ -27,5 +25,7 @@ import Link from '@/components/menu/Link.vue';
 export default class Header extends Vue {}
 </script>
 <style lang="scss">
-
+.logo {
+  min-width: 150px;
+}
 </style>
