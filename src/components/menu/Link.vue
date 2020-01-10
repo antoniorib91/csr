@@ -31,9 +31,9 @@
     line-height: 70px;
     padding: 0px 10px; 
     a {
-      color: $white;
+      color: $menu_link;
       &:hover {
-        color: $black;
+        color: $menu_link_hover;
         font-size: 32px;
       }
     }

@@ -17,12 +17,12 @@ export default class Section extends Vue {
 </script>
 <style lang="scss">
 .section {
-  padding: 10px 20px;
+  // padding: 10px 20px;
   min-height: 100vh;
 }
 
 .first_section {
-  padding: 10px 20px;
-  min-height: 88vh;
+  // padding: 10px 20px;
+  min-height: 92vh;
 }
 </style>

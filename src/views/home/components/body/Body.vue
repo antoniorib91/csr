@@ -1,9 +1,9 @@
 <template>
 <body>
-  <Section :isFirst="true" klass="section__blackboard">
+  <Section :isFirst="true" klass="section__about">
     <About></About>
   </Section>
-  <Section>
+  <Section class="section__events">
     <Events></Events>
   </Section>
   <Section>
@@ -33,10 +33,10 @@ export default class Body extends Vue {}
 @import '../../../../assets/scss/variables';
 
 body {
-  background-color: beige;
+  background-color: $beige3;
 
   .section {
-    &__blackboard {
+    &__about {
       font-family: 'CHand';
       font-style: italic;
       font-weight: bold;
@@ -44,7 +44,11 @@ body {
       font-size: 26px; 
       // background-image: url("../../../../assets/images/blackboard.jpeg");
       // background-size: cover;
-      color: white;
+      color: $white;
+    }
+
+    &__events {
+      background-color: $brown;
     }
   }
 }

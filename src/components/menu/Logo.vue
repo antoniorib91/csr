@@ -13,6 +13,6 @@
 <style lang="scss" scoped>
 #logo {
   position: absolute;
-  margin: 0px 10px 0px -70px;
+  margin: 0px 10px 0px -75px;
 }
 </style>
